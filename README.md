@@ -1,6 +1,6 @@
 # While Practice
 
-Beginner level task for practicing while statements.
+Intermediate level task for practicing while statements.
 
 Estimated time to complete the task - 2h.
 
