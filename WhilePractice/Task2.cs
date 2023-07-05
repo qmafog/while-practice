@@ -10,7 +10,18 @@
         /// <returns>Sum of elements.</returns>
         public static double SumSequenceElements(int n)
         {
-            throw new NotImplementedException();
+            decimal sum = 0.0m;
+            decimal sign = 1.0m;
+            int i = 1;
+
+            while (i <= n)
+            {
+                sum += sign * (1.0m / (i * (i + 1)));
+                sign *= -1.0m;
+                i++;
+            }
+
+            return (double)sum;
         }
     }
 }
